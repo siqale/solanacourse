@@ -1,77 +1,140 @@
+# 🌟 Solana Development Studies | Estudos de Desenvolvimento Solana
 
-# Solana Blockchain Course - Portuguese Version
+<div align="center">
 
-## Description
+[![Solana](https://img.shields.io/badge/Solana-black?style=for-the-badge&logo=solana)](https://solana.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-This repository contains the material for the Solana blockchain course, created to help developers learn about blockchain technology and how to build decentralized applications (dApps) on the Solana platform.
+[English](#english) | [Português](#português)
 
-## Course Objectives
+</div>
 
-* Introduce the basic concepts of blockchain and its application on the Solana platform
-* Teach how to build dApps on Solana using the Rust programming language
-* Show how to use Solana's tools and libraries to create scalable and secure applications
+---
 
-## Course Content
+<a name="english"></a>
+# 🇺🇸 English Version
 
-* For now, I'm only uploading example codes
+## 📝 Description
 
-## Requirements
+This repository contains practical studies and examples of Solana blockchain development, focusing on creating decentralized applications (dApps) using TypeScript and the Solana Web3.js library.
 
-* Course designed for beginners
+## 🎯 Project Objectives
 
-## Repository Structure
+* Learn Solana blockchain fundamentals and architecture
+* Develop practical examples of Solana program interactions
+* Implement common use cases like wallet connections and token transfers
+* Study best practices for Solana dApp development
 
-* `README.md`: this file
-  * `examples`: folder containing examples of projects and use cases
+## 🛠️ Technical Stack
 
-## Contribution
+* **Runtime**: Node.js
+* **Language**: TypeScript
+* **Main Libraries**:
+  * `@solana/web3.js`: Core Solana JavaScript API
+  * `@solana-developers/helpers`: Utility functions for Solana development
+  
+## 📁 Repository Structure
 
-This repository is open to contributions! If you have any suggestions or corrections, please open an issue or make a pull request.
+```
+.
+├── examples/
+│   ├── balance_transfers/    # Examples of SOL transfers
+│   └── connections_keys/     # Wallet connection examples
+├── .env                      # Environment variables
+├── index.ts                 # Main entry point
+└── package.json            # Project dependencies
+```
 
-## License
+## 🚀 Getting Started
 
-This repository is licensed under the MIT License.
+1. Clone the repository
+```bash
+git clone [repository-url]
+```
 
-## Contact
+2. Install dependencies
+```bash
+npm install
+```
 
-If you have any questions or need help, please contact me through my GitHub profile.
+3. Create a `.env` file with your configuration
+```bash
+cp .env.example .env
+```
 
-Note: I've kept the "Portuguese Version" part in the title, but if you want to remove it, I can do that too.
+4. Run the examples
+```bash
+npx esrun examples/[example-file].ts
+```
 
+---
 
-# Curso de Blockchain da Solana - Versão em Português
+<a name="português"></a>
+# 🇧🇷 Versão em Português
 
-## Descrição
+## 📝 Descrição
 
-Este repositório contém o material do curso de blockchain da Solana, criado para ajudar os desenvolvedores a aprender sobre a tecnologia blockchain e como desenvolver aplicações descentralizadas (dApps) na plataforma Solana.
+Este repositório contém estudos práticos e exemplos de desenvolvimento na blockchain Solana, com foco na criação de aplicações descentralizadas (dApps) utilizando TypeScript e a biblioteca Solana Web3.js.
 
-## Objetivos do Curso
+## 🎯 Objetivos do Projeto
 
-* Introduzir os conceitos básicos de blockchain e sua aplicação na plataforma Solana
-* Ensinar como desenvolver dApps na Solana utilizando a linguagem de programação Rust
-* Mostrar como utilizar as ferramentas e bibliotecas da Solana para criar aplicações escaláveis e seguras
+* Aprender os fundamentos e a arquitetura da blockchain Solana
+* Desenvolver exemplos práticos de interações com programas Solana
+* Implementar casos de uso comuns como conexões de carteira e transferências de tokens
+* Estudar as melhores práticas para desenvolvimento de dApps na Solana
 
-## Conteúdo do Curso
+## 🛠️ Stack Técnica
 
-* Por enquanto estou subindo apenas os códigos de exemplo
+* **Runtime**: Node.js
+* **Linguagem**: TypeScript
+* **Principais Bibliotecas**:
+  * `@solana/web3.js`: API JavaScript principal da Solana
+  * `@solana-developers/helpers`: Funções utilitárias para desenvolvimento Solana
 
-## Requisitos
+## 📁 Estrutura do Repositório
 
-* Curso feito para iniciantes
+```
+.
+├── examples/
+│   ├── balance_transfers/    # Exemplos de transferências de SOL
+│   └── connections_keys/     # Exemplos de conexão com carteiras
+├── .env                      # Variáveis de ambiente
+├── index.ts                 # Ponto de entrada principal
+└── package.json            # Dependências do projeto
+```
 
-## Estrutura do Repositório
+## 🚀 Como Começar
 
-* `README.md`: este arquivo
-  * `exemplos`: pasta contendo exemplos de projetos e casos de uso
+1. Clone o repositório
+```bash
+git clone [url-do-repositório]
+```
 
-## Contribuição
+2. Instale as dependências
+```bash
+npm install
+```
 
-Este repositório é aberto a contribuições! Se você tiver alguma sugestão ou correção, por favor, abra uma issue ou faça um pull request.
+3. Crie um arquivo `.env` com sua configuração
+```bash
+cp .env.example .env
+```
 
-## Licença
+4. Execute os exemplos
+```bash
+npx esrun examples/[arquivo-exemplo].ts
+```
 
-Este repositório é licenciado sob a licença MIT.
+---
 
-## Contato
+## 📫 Contact | Contato
 
-Se você tiver alguma dúvida ou precisar de ajuda, por favor, entre em contato comigo através do meu perfil no GitHub.
+Feel free to reach out if you have any questions or suggestions!
+Sinta-se à vontade para entrar em contato se tiver dúvidas ou sugestões!
+
+## 📜 License | Licença
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
